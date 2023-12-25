@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background: #F8F8F8;
+    font-family:'Roboto',sans-serif;
+}
+
+section.chat_section{
+    width:800px;
+    max-width:90%;
+    background:#fff; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.brand{
+   
+    background: #f1f1f1;
+    display:flex;
+    align-items: center;
+}
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#444;
+    margin-left:2px;    
+}
+.brand button{
+    height: 46px;
+    width:44px;
+    margin-left: 350px;    
+}
+.brand button:hover{
+    border-color: rgb(6, 116, 58);  
+}
+.brand button img{
+   
+    height: 34px;
+    width:24px;
+    border-color: #333; 
+}
+
+
+.message_area{
+    height:500px ;
+    padding: 16px;
+    display:flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+
+.send {
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+.send textarea{
+    width:85%;
+    margin:20px;
+    margin-left:10px;
+    padding:10px;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #FBFBFB; 
+}
+.send textarea:hover{
+   border-color:#333;
+   border-width:2px;
+   }
+.sendbtn{
+    border:none; 
+}
+
+.sendbtn img{
+    height:39px;
+    width:45px;
+  
+}
+.user-join{
+    
+    width: 300px;
+    height:60px;
+    border: 0px solid rgb(10, 22, 24);
+    background: #adeaf5;
+    color:black;
+    padding:20px ;
+    border-radius:50px ;
+    margin:20px ;
+
+    font-size:16px;
+    
+}
+.message {
+    padding:20px ;
+    border-radius:40px ;
+    margin-bottom:40px ;
+    max-width: 300px;
+    position: relative;
+}
+.incoming{
+    background: #0baf63;
+    color: #fff;
+}
+.outgoing{
+    background:#b3f1c6;
+    color:#047541 ;
+    margin-left:auto ;
+
+}
+.message h4{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    color:#333;
+    font-size:14px;
+}
